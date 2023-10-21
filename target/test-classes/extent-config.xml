@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+    <configuration>
+        <!-- Report Theme -->
+        <!-- Options: standard, dark -->
+        <theme>dark</theme>
+
+        <!-- Document Encoding -->
+        <!-- Defaults to UTF-8 -->
+        <encoding>UTF-8</encoding>
+
+        <!-- Protocol for Script and Stylesheets -->
+        <!-- Defaults to https -->
+        <protocol>http</protocol>
+
+        <!-- Title of the Document -->
+        <documentTitle>Moog Reports</documentTitle>
+
+        <!-- Report Name (Displayed at Top-Nav) -->
+        <reportName>Moog Report</reportName>
+
+        <!-- Location of Charts in the Test View -->
+        <!-- Options: top, bottom -->
+        <testViewChartLocation>bottom</testViewChartLocation>
+
+        <!-- Custom JavaScript -->
+        <scripts>
+            <![CDATA[$(document).ready(function() {});]]>
+        </scripts>
+
+        <!-- Custom Styles -->
+        <styles>
+            <![CDATA[]]>
+        </styles>
+    </configuration>
+</extentreports>
